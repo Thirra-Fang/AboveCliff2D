@@ -41,3 +41,48 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: plat6
+    uniqueID: 3432912053
+    locked: 0
+  - name: plat5
+    uniqueID: 325453919
+    locked: 0
+  - name: plat4
+    uniqueID: 2251219839
+    locked: 0
+  - name: plat3
+    uniqueID: 3272575379
+    locked: 0
+  - name: plat2
+    uniqueID: 775316917
+    locked: 0
+  - name: plat1
+    uniqueID: 164723381
+    locked: 0
+  - name: plat0
+    uniqueID: 1810238395
+    locked: 0
+  - name: plat-1
+    uniqueID: 1329267977
+    locked: 0
+  - name: plat-2
+    uniqueID: 16394753
+    locked: 0
+  - name: plat-3
+    uniqueID: 2727405935
+    locked: 0
+  - name: plat-4
+    uniqueID: 731583551
+    locked: 0
+  - name: plat-5
+    uniqueID: 808425535
+    locked: 0
+  - name: plat-6
+    uniqueID: 1049962391
+    locked: 0
+  - name: right
+    uniqueID: 311251485
+    locked: 0
+  - name: left
+    uniqueID: 3375392609
+    locked: 0
