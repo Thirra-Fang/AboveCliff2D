@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Card>
+	<Card1 name = "Sample Card">
+		<run>2</run>
+		<smash>1</smash>
+		<distance>0</distance>
+		<effect></effect>
+	</Card1>
+	<Card2 name = "正劈">
+		<run>1</run>
+		<smash>2</smash>
+		<distance>0</distance>
+		<effect></effect>
+	</Card2>
+	<Card3 name = "十字斩">
+		<run>2</run>
+		<smash>2</smash>
+		<distance>0</distance>
+		<effect></effect>
+	</Card3>
+</Card>
