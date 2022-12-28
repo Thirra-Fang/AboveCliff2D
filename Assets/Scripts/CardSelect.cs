@@ -18,7 +18,7 @@ public class CardSelect : MonoBehaviour
         XmlDocument document = new XmlDocument();
         document.LoadXml(xmlFile.text);
 
-        nodeList = document.SelectSingleNode("Card").ChildNodes;
+        nodeList = document.SelectSingleNode("Cards").ChildNodes;
     }
 
     // Update is called once per frame
