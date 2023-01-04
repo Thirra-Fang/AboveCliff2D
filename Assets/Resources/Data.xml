@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Cards>
+  <Card0 name="Sample Card">
+    <run>2</run>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card0>
+<Card1 name="斩击">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card1>
+  <Card2 name="斩击">
+    <rush>1</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card2>
+  <Card3 name="斩击">
+    <rush>2</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card3>
+  <Card4 name="斩击">
+    <rush>5</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card4>
+  <Card5 name="斩击">
+    <rush>1</rush>
+    <smash>4</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card5>
+  <Card6 name="纵云">
+    <rush>3</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card6>
+  <Card7 name="缠斗">
+    <rush>3</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card7>
+  <Card8 name="凌波">
+    <rush>2</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card8>
+  <Card9 name="绝地反击">
+    <rush>4</rush>
+    <smash>4</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card9>
+  <Card10 name="乘胜追击">
+    <rush>1</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card10>
+  <Card11 name="暗箭">
+    <rush>-1</rush>
+    <smash>1</smash>
+    <distance>20</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card11>
+  <Card12 name="Sample12">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card12>
+  <Card13 name="剑气">
+    <rush>0</rush>
+    <smash>0</smash>
+    <distance>20</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card13>
+  <Card14 name="附魔斩">
+    <rush>1</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card14>
+  <Card15 name="波动斩">
+    <rush>0</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card15>
+  <Card16 name="Sample16">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card16>
+  <Card17 name="怨念">
+    <rush>0</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card17>
+  <Card18 name="Sample18">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card18>
+  <Card19 name="Sample19">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card19>
+  <Card20 name="Sample20">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card20>
+  <Card21 name="Sample21">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card21>
+  <Card22 name="Sample22">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card22>
+  <Card23 name="Sample23">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card23>
+  <Card24 name="Sample24">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card24>
+  <Card25 name="Sample25">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card25>
+  <Card26 name="动如雷震">
+    <rush>2</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card26>
+  <Card27 name="Sample27">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card27>
+  <Card28 name="斩击">
+    <rush>3</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card28>
+  <Card29 name="斩击">
+    <rush>4</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card29>
+  <Card30 name="斩击">
+    <rush>4</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card30>
+  <Card31 name="斩击">
+    <rush>3</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card31>
+  <Card32 name="重斩">
+    <rush>1</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card32>
+  <Card33 name="重斩">
+    <rush>2</rush>
+    <smash>3</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card33>
+  <Card34 name="重斩">
+    <rush>3</rush>
+    <smash>4</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card34>
+  <Card35 name="瞬移">
+    <rush>3</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card35>
+  <Card36 name="瞬移">
+    <rush>3</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card36>
+  <Card37 name="回天">
+    <rush>0</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card37>
+  <Card38 name="回天">
+    <rush>0</rush>
+    <smash>3</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card38>
+  <Card39 name="Sample39">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card39>
+  <Card40 name="Sample40">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card40>
+  <Card41 name="Sample41">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card41>
+  <Card42 name="Sample42">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card42>
+  <Card43 name="Sample43">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card43>
+  <Card44 name="Sample44">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card44>
+  <Card45 name="鞘击">
+    <rush>1</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card45>
+  <Card46 name="拔刀斩">
+    <rush>0</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card46>
+  <Card47 name="舍身攻击">
+    <rush>3</rush>
+    <smash>3</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card47>
+  <Card48 name="步步为营">
+    <rush>2</rush>
+    <smash>0</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card48>
+  <Card49 name="舞剑">
+    <rush>1</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card49>
+  <Card50 name="Sample50">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card50>
+  <Card51 name="Sample51">
+    <rush>2</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card51>
+</Cards>
