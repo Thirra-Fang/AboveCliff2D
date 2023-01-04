@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HandControl
   - Enemy
+  - BattleControl
   layers:
   - Default
   - TransparentFX

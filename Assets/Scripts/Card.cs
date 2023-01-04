@@ -16,6 +16,7 @@ public class Card : MonoBehaviour
     int limit = 1;
     PlayerControl player;
     HandCotrol hand;
+    BattleControl battle;
 
     public void Generallize(int n,int l)
     {
@@ -52,6 +53,7 @@ public class Card : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player").transform.GetComponent<PlayerControl>();
         hand = GameObject.FindWithTag("HandControl").transform.GetComponent<HandCotrol>();
+        battle = GameObject.FindWithTag("BattleControl").transform.GetComponent<BattleControl>();
     }
 
     // Update is called once per frame
@@ -64,6 +66,15 @@ public class Card : MonoBehaviour
     {
         player.Act(rush, smash, distance);
         hand.Discard(handNum);
+        if(limit == 1)
+        {
+            battle.roundEnd();
+        }
         Destroy(gameObject);
+    }
+
+    public void ChangeHandNumBy(int i)
+    {
+        handNum += i;
     }
 }

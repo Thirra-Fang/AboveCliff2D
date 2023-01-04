@@ -57,9 +57,13 @@ public class HandCotrol : MonoBehaviour
             hand[i] = hand[i + 1];
             Transform tempCard = pos[i + 1].GetChild(0);
             tempCard.position = pos[i].position;
+            tempCard.GetComponent<Card>().ChangeHandNumBy(-1);
             tempCard.SetParent(pos[i]);
         }
-        hand[handNum] = -1;
+        if (handNum < 6)
+        {
+            hand[handNum] = -1;
+        }
         handNum--;
     }
 }
