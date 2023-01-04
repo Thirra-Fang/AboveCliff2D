@@ -76,9 +76,13 @@ public class EnemyControl : MonoBehaviour
         {
             Move(player.getCurPos() - curPos);
         }
-        if (Mathf.Abs(player.getCurPos() - curPos) > z)
+        if (Mathf.Abs(player.getCurPos() - curPos) <= z)
         {
             player.Repeled(y * moveDir);
         }
+    }
+    public void Test()
+    {
+        Debug.Log("111");
     }
 }
