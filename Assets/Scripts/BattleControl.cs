@@ -5,6 +5,7 @@ using UnityEngine;
 public class BattleControl : MonoBehaviour
 {
     public EnemyAI enemyAI;
+    public bool isPlayerFirst;
     // Start is called before the first frame update
     void Start()
     {
