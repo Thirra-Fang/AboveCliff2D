@@ -14,8 +14,8 @@ public class HandCotrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hand = new int[6];
-        for(int i = 0; i < 6; i++)
+        hand = new int[7];
+        for(int i = 0; i < 7; i++)
         {
             hand[i] = -1;
         }
@@ -35,7 +35,7 @@ public class HandCotrol : MonoBehaviour
 
     public void Draw()
     {
-        if(handNum < 6)
+        if(handNum < 7)
         {
             int rd = (int)Random.Range(0.0f, 11.9999999f);
             Debug.Log(rd);
@@ -60,7 +60,7 @@ public class HandCotrol : MonoBehaviour
             tempCard.GetComponent<Card>().ChangeHandNumBy(-1);
             tempCard.SetParent(pos[i]);
         }
-        if (handNum < 6)
+        if (handNum < 7)
         {
             hand[handNum] = -1;
         }
