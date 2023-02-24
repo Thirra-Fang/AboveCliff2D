@@ -735,7 +735,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1060424301
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -755,7 +755,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655570639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.16, y: 1.97, z: 0}
+  m_LocalPosition: {x: -1.99, y: -0.83, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -770,7 +770,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655570639}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -795,9 +795,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7d618908e276842b2edf292a4e3ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initPos: -2
+  initPos: -3
   unitsPerPlatform: 2.56
   enemy: {fileID: 1131824510}
+  plats: {fileID: 1299705542}
+  moveSpeed: 1
+  repelSpeed: 1
 --- !u!1 &696592803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,7 +1620,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 655570644}
-  initPos: 2
+  initPos: 3
+  plats: {fileID: 1299705542}
+  moveSpeed: 1
+  repelSpeed: 1
 --- !u!50 &1131824511
 Rigidbody2D:
   serializedVersion: 4
@@ -1626,7 +1632,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131824509}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1693,8 +1699,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1060424301
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0.8584906, g: 0.051833343, b: 0.051833343, a: 1}
@@ -1715,7 +1721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131824509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.66, y: 2.17, z: 0}
+  m_LocalPosition: {x: 1.78, y: 3.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1915,7 +1921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b4c645849026ab4da0546b2f4c369ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPlatformNum: 5
+  startPlatformNum: 7
   platform:
   - {fileID: 1444845716}
   - {fileID: 1686643387}
@@ -2034,7 +2040,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444845716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2, y: 0.36, z: 0}
+  m_LocalPosition: {x: -0.01, y: -0.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
