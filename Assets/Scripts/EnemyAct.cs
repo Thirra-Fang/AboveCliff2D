@@ -21,12 +21,12 @@ public class EnemyAct
         XmlNodeList nodeList = document.SelectSingleNode("Cards").ChildNodes;
         XmlElement elementCard = (XmlElement)nodeList[n];
 
-        Debug.Log(elementCard.GetAttribute("name"));
+        //Debug.Log(elementCard.GetAttribute("name"));
 
-        foreach (XmlElement element in elementCard.ChildNodes)
-        {
-            Debug.Log(element.InnerText);
-        }
+        //foreach (XmlElement element in elementCard.ChildNodes)
+        //{
+        //    Debug.Log(element.InnerText);
+        //}
 
         cardName = elementCard.GetAttribute("name");
         rush = int.Parse(elementCard.ChildNodes[0].InnerText);

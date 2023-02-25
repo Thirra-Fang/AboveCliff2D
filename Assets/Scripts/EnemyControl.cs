@@ -45,6 +45,7 @@ public class EnemyControl : MonoBehaviour
         if (player.getIsRightPlace()&&waitingRepelDistance!=0)
         {
             repelStatus = true;
+            battle.setCanMove(false);
             curPos += waitingRepelDistance;
             waitingRepelDistance = 0;
         }
@@ -54,6 +55,10 @@ public class EnemyControl : MonoBehaviour
             repelStatus = false;
             battle.setEnemyRound(true);
             battle.setCanMove(true);
+        }
+        if((transform.position.x< plats.getPlat(-plats.getBoundaryNum()).transform.position.x)|| (transform.position.x > plats.getPlat(plats.getBoundaryNum()).transform.position.x))
+        {
+            battle.win(true);
         }
     }
     private void LateUpdate()

@@ -38,7 +38,7 @@ public class HandCotrol : MonoBehaviour
         if(handNum < 7)
         {
             int rd = (int)Random.Range(0.0f, 11.9999999f);
-            Debug.Log(rd);
+            //Debug.Log(rd);
             hand[handNum] = deck[rd];
             Transform newCard = Instantiate(cardProfab, pos[handNum]).transform;
             newCard.GetComponent<Card>().Generallize(hand[handNum],handNum);
@@ -53,7 +53,7 @@ public class HandCotrol : MonoBehaviour
     {
         for (int i = l; i < handNum-1; i++)
         {
-            Debug.Log(i.ToString()+"+"+handNum.ToString());
+            //Debug.Log(i.ToString()+"+"+handNum.ToString());
             hand[i] = hand[i + 1];
             Transform tempCard = pos[i + 1].GetChild(0);
             tempCard.position = pos[i].position;

@@ -7,6 +7,11 @@ public class PlatformControl : MonoBehaviour
     public int startPlatformNum;
     public GameObject[] platform;
 
+    public int getBoundaryNum()
+    {
+        return (startPlatformNum - 1)/2;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

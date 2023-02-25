@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleControl : MonoBehaviour
 {
     public EnemyAI enemyAI;
     public bool isPlayerFirst;
     public HandCotrol hand;
+    public GameObject settle;
+    public Text settleText;
 
     bool isPlayerRound;
     bool isEnemyRound;
@@ -82,5 +85,18 @@ public class BattleControl : MonoBehaviour
     {
         isEnemyRound = false;
         isPlayerWaiting = true;
+    }
+    public void win(bool b)
+    {
+        settle.SetActive(true);
+        if (b)
+        {
+            settleText.text = "ƒ„”Æ¡À";
+        }
+        else
+        {
+            settleText.text = "ƒ„ ‰¡À";
+        }
+        Time.timeScale = 0.0f;
     }
 }
