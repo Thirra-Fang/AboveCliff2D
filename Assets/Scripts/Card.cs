@@ -28,12 +28,12 @@ public class Card : MonoBehaviour
         XmlNodeList nodeList = document.SelectSingleNode("Cards").ChildNodes;
         XmlElement elementCard = (XmlElement)nodeList[n];
 
-        Debug.Log(elementCard.GetAttribute("name"));
+        //Debug.Log(elementCard.GetAttribute("name"));
 
-        foreach (XmlElement element in elementCard.ChildNodes)
+        /*foreach (XmlElement element in elementCard.ChildNodes)
         {
             Debug.Log(element.InnerText);
-        }
+        }*/
 
         handNum = l;
         cardName = elementCard.GetAttribute("name");
@@ -64,13 +64,17 @@ public class Card : MonoBehaviour
 
     public void Discard()
     {
-        player.Act(rush, smash, distance);
-        hand.Discard(handNum);
-        if(limit == 1)
+        if (battle.getCanMove()&&battle.getPlayerRound())
         {
-            battle.roundEnd();
+            battle.setCanMove(false);
+            player.Act(rush, smash, distance);
+            hand.Discard(handNum);
+            if (limit == 1)
+            {
+                battle.playerRoundEnd();
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 
     public void ChangeHandNumBy(int i)

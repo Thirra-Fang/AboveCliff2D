@@ -6,18 +6,19 @@ public class EnemyAI : MonoBehaviour
 {
     public EnemyControl enemy;
     public int[] enemyDeck;
+    public BattleControl battle;
 
     EnemyAct[] enemyActs;
+    int curCard;
     // Start is called before the first frame update
     void Start()
     {
         enemyDeckInitialization();
+        curCard = 0;
     }
-
     // Update is called once per frame
     void Update()
     {
-        
     }
     void enemyDeckInitialization()
     {
@@ -30,7 +31,21 @@ public class EnemyAI : MonoBehaviour
     }
     public void Act()
     {
-        int rd = (int)Random.Range(0.0f, 11.9999999f);
-        enemy.Act(enemyActs[rd].getRush(), enemyActs[rd].getSmash(), enemyActs[rd].getDistance());
+        //以下批注项为随机出牌
+        //int rd = (int)Random.Range(0.0f, 11.9999999f);
+        //enemy.Act(enemyActs[rd].getRush(), enemyActs[rd].getSmash(), enemyActs[rd].getDistance());
+        enemy.Act(enemyActs[curCard].getRush(), enemyActs[curCard].getSmash(), enemyActs[curCard].getDistance());
+        if (enemyActs[curCard].getLimit()==1)
+        {
+            battle.enemyRoundEnd();
+        }
+        if (curCard < 11)
+        {
+            curCard++;
+        }
+        else
+        {
+            curCard = 0;
+        }
     }
 }

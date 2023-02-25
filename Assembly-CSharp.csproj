@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\SetXML.cs" />
+    <Compile Include="Assets\Scripts\SettleMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Data.xml" />
