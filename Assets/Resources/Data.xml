@@ -42,79 +42,79 @@
     <effect>None</effect>
     <limit>1</limit>
   </Card5>
-  <Card6 name="纵云">
+  <Card6 name="斩击">
     <rush>3</rush>
-    <smash>0</smash>
+    <smash>1</smash>
     <distance>0</distance>
     <effect>None</effect>
     <limit>1</limit>
   </Card6>
-  <Card7 name="缠斗">
+  <Card7 name="斩击">
+    <rush>4</rush>
+    <smash>1</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card7>
+  <Card8 name="斩击">
+    <rush>4</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card8>
+  <Card9 name="斩击">
+    <rush>3</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card9>
+  <Card10 name="重斩">
+    <rush>1</rush>
+    <smash>2</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card10>
+  <Card11 name="重斩">
+    <rush>2</rush>
+    <smash>3</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card11>
+  <Card12 name="重斩">
+    <rush>3</rush>
+    <smash>4</smash>
+    <distance>0</distance>
+    <effect>None</effect>
+    <limit>1</limit>
+  </Card12>
+  <Card13 name="瞬移">
     <rush>3</rush>
     <smash>0</smash>
     <distance>0</distance>
     <effect>None</effect>
     <limit>1</limit>
-  </Card7>
-  <Card8 name="凌波">
-    <rush>2</rush>
-    <smash>0</smash>
-    <distance>0</distance>
-    <effect>None</effect>
-    <limit>1</limit>
-  </Card8>
-  <Card9 name="绝地反击">
-    <rush>4</rush>
-    <smash>4</smash>
-    <distance>0</distance>
-    <effect>None</effect>
-    <limit>1</limit>
-  </Card9>
-  <Card10 name="乘胜追击">
-    <rush>1</rush>
-    <smash>1</smash>
-    <distance>0</distance>
-    <effect>None</effect>
-    <limit>1</limit>
-  </Card10>
-  <Card11 name="暗箭">
-    <rush>-1</rush>
-    <smash>1</smash>
-    <distance>20</distance>
-    <effect>None</effect>
-    <limit>1</limit>
-  </Card11>
-  <Card12 name="Sample12">
-    <rush>2</rush>
-    <smash>1</smash>
-    <distance>0</distance>
-    <effect>None</effect>
-    <limit>1</limit>
-  </Card12>
-  <Card13 name="剑气">
-    <rush>0</rush>
-    <smash>0</smash>
-    <distance>20</distance>
-    <effect>None</effect>
-    <limit>1</limit>
   </Card13>
-  <Card14 name="附魔斩">
-    <rush>1</rush>
-    <smash>1</smash>
+  <Card14 name="瞬移">
+    <rush>4</rush>
+    <smash>0</smash>
     <distance>0</distance>
     <effect>None</effect>
     <limit>1</limit>
   </Card14>
-  <Card15 name="波动斩">
+  <Card15 name="回天">
     <rush>0</rush>
     <smash>2</smash>
     <distance>0</distance>
     <effect>None</effect>
     <limit>1</limit>
   </Card15>
-  <Card16 name="Sample16">
-    <rush>2</rush>
-    <smash>1</smash>
+  <Card16 name="回天">
+    <rush>0</rush>
+    <smash>3</smash>
     <distance>0</distance>
     <effect>None</effect>
     <limit>1</limit>

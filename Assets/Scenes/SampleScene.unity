@@ -799,8 +799,9 @@ MonoBehaviour:
   unitsPerPlatform: 2.56
   enemy: {fileID: 1131824510}
   plats: {fileID: 1299705542}
-  moveSpeed: 1
+  moveSpeed: 2
   repelSpeed: 1
+  battle: {fileID: 888823255}
 --- !u!1 &696592803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyAI: {fileID: 1336121010}
   isPlayerFirst: 1
+  hand: {fileID: 975776540}
 --- !u!1 &891521054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,8 +1624,9 @@ MonoBehaviour:
   player: {fileID: 655570644}
   initPos: 3
   plats: {fileID: 1299705542}
-  moveSpeed: 1
+  moveSpeed: 2
   repelSpeed: 1
+  battle: {fileID: 888823255}
 --- !u!50 &1131824511
 Rigidbody2D:
   serializedVersion: 4
@@ -2014,7 +2017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1131824510}
-  enemyDeck: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000d000000
+  enemyDeck: 02000000040000000100000005000000100000000400000005000000070000000b0000000d0000000600000005000000
+  battle: {fileID: 888823255}
 --- !u!1 &1444845716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,7 +2533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fbcf845fd41e2841bf6db25fddd0ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardNo: 010000000200000000000000
+  cardNo: 050000000000000000000000
   player: {fileID: 655570644}
 --- !u!114 &2110574211
 MonoBehaviour:
@@ -2843,6 +2847,10 @@ PrefabInstance:
     - target: {fileID: 1925181518558749741, guid: 21aeb1cb6fbe50243ab238c2e2ba34a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925181518558749743, guid: 21aeb1cb6fbe50243ab238c2e2ba34a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1925181518667275693, guid: 21aeb1cb6fbe50243ab238c2e2ba34a0, type: 3}
       propertyPath: m_Name
