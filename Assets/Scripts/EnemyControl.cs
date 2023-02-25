@@ -6,10 +6,14 @@ public class EnemyControl : MonoBehaviour
 {
     public PlayerControl player;
     public int initPos;
+    public PlatformControl plats;
+    public float moveSpeed;
+    public float repelSpeed;
 
     float unitsPerPlatform;
     int curPos;
     int moveDir;
+    static Vector3 UPD = new Vector3(0, 1.6f, 0);
 
     public int getCurPos()
     {
@@ -27,16 +31,18 @@ public class EnemyControl : MonoBehaviour
     {
 
     }
+    private void FixedUpdate()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, plats.getPlat(curPos).transform.position+UPD, Time.deltaTime * moveSpeed);
+    }
+
     public void Move(int x)
     {
         curPos += x;
-        transform.position = new Vector3(transform.position.x + unitsPerPlatform * x, transform.position.y, transform.position.z);
     }
     public void Repeled(int y)
     {
         curPos += y;
-        transform.position = new Vector3(transform.position.x + unitsPerPlatform * y, transform.position.y, transform.position.z);
-
     }
     void MoveInit()
     {
@@ -52,7 +58,7 @@ public class EnemyControl : MonoBehaviour
     }
     void PlaceInit()
     {
-        transform.position = new Vector3(initPos * unitsPerPlatform, 0.0f, 0.0f);
+        transform.position = plats.getPlat(initPos).transform.position + UPD;
         curPos = initPos;
     }
 

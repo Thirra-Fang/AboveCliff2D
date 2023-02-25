@@ -21,4 +21,15 @@ public class PlatformControl : MonoBehaviour
     {
         
     }
+    public GameObject getPlat(int i)
+    {
+        if (i <= 0)
+        {
+            return platform[-2*i];
+        }
+        else
+        {
+            return platform[2*i-1];
+        }
+    }
 }
